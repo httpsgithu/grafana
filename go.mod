@@ -11,7 +11,6 @@ replace github.com/denisenkom/go-mssqldb => github.com/denisenkom/go-mssqldb v0.
 replace k8s.io/client-go => k8s.io/client-go v0.18.8
 
 require (
-	cloud.google.com/go v0.70.0 // indirect
 	cloud.google.com/go/storage v1.12.0
 	github.com/BurntSushi/toml v0.3.1
 	github.com/VividCortex/mysqlerr v0.0.0-20170204212430-6c6b55f8796f
@@ -34,6 +33,7 @@ require (
 	github.com/getsentry/sentry-go v0.9.0
 	github.com/go-macaron/binding v0.0.0-20190806013118-0b4f37bab25b
 	github.com/go-macaron/gzip v0.0.0-20160222043647-cad1c6580a07
+	github.com/go-sourcemap/sourcemap v2.1.3+incompatible
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-stack/stack v1.8.0
 	github.com/gobwas/glob v0.2.3
@@ -82,14 +82,12 @@ require (
 	github.com/xorcare/pointer v1.1.0
 	github.com/yudai/gojsondiff v1.0.0
 	golang.org/x/crypto v0.0.0-20201208171446-5f87f3452ae9
-	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
-	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
-	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
+	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
+	golang.org/x/oauth2 v0.0.0-20201208152858-08078c50e5b5
+	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
 	gonum.org/v1/gonum v0.8.2
-	google.golang.org/api v0.33.0
-	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20201022181438-0ff5f38871d5 // indirect
+	google.golang.org/api v0.39.0
 	google.golang.org/grpc v1.35.0
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
