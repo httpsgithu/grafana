@@ -55,7 +55,7 @@ require (
 	github.com/hashicorp/go-plugin v1.4.0
 	github.com/hashicorp/go-version v1.3.0
 	github.com/inconshreveable/log15 v0.0.0-20180818164646-67afb5ed74ec
-	github.com/influxdata/influxdb-client-go/v2 v2.2.3
+	github.com/influxdata/influxdb-client-go/v2 v2.10.0
 	github.com/jmespath/go-jmespath v0.4.0
 	github.com/jonboulle/clockwork v0.2.2 // indirect
 	github.com/json-iterator/go v1.1.10
@@ -93,7 +93,7 @@ require (
 	golang.org/x/net v0.0.0-20210316092652-d523dce5a7f4
 	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324
+	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
 	gonum.org/v1/gonum v0.9.1
 	google.golang.org/api v0.44.0
 	google.golang.org/grpc v1.37.0
